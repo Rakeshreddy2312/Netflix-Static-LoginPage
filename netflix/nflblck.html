@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .story-card {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+      }
+      .blck-info {
+        flex: 48%;
+      }
+      .img-video1 {
+        position: relative;
+        flex: 50%;
+        padding: 30px;
+        flex: 48%;
+      }
+      .img-video1 video {
+        width: 30%;
+      }
+      .vdo1 img {
+        position: absolute;
+        top: 0;
+        left: -40px;
+        width: 45%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="story-card">
+        <div class="blck-info">
+          <h2>Watch everywhere.</h2>
+          <p>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+        <div class="img-video1">
+          <div class="img-vdo1">
+            <video
+              src="ntflxvideos/video-devices-in.m4v"
+              autoplay
+              muted
+              loop
+            ></video>
+
+            <div class="vdo1">
+              <img src="netfliximgs/device-pile-in.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
